@@ -1,0 +1,742 @@
+/* orange : #FF5400 */
+/* gris sombre background : #272727; */
+/* 360 - 966 */
+/* inline block */
+
+.logosvg{
+    width:120px;
+    height: 31px;
+}
+
+.iconsvg{
+    width: 26px;
+}
+
+body{
+    background-color: #272727;
+    margin:0;
+    color:white;
+    font-family:proximanova,arial,sans-serif;
+}
+
+.logo{
+    padding: 20px 0 0 20px;
+}
+
+
+.sous-header{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    margin: 0 0 0 0vw;
+    margin:0;
+}
+
+header{
+    background: url(./../img/bannière.jpg);    
+
+}
+
+.deux-menus-mid{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10px;
+}
+
+.menu-bas{
+    display:flex;
+    font-family:proximanova,arial,sans-serif;
+    color:white;
+
+}
+
+.menu-haut{
+    font-size:15px;
+}
+
+.bouton-tendances button:hover, .bouton-precommande button:hover{
+    background-color: #FF5400;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+}
+
+ul{
+    list-style-type:none;
+    display:flex;
+    flex-direction: row;
+    padding:0;
+    font-family:proximanova,arial,sans-serif;
+    color:white;
+    justify-content:space-between;
+    margin:0;
+}
+
+li{
+    margin:10px;
+
+}
+
+.svg-icons{
+    display:flex;
+    padding: 30px 30px 0 0;
+}
+
+.cart-icon{
+    padding-right:7px;
+    padding-left:0px;
+}
+
+.profile-icon{
+    padding-left:7px;
+}
+
+.titre{
+    color:white;
+    font-size:27px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding : 70px 0 0 50px;
+}
+
+.texte-milieu{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+}
+
+.promo-prix{
+    display:flex;
+    padding : 0 0 0 50px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+}
+
+.promo{
+    background-color:#FF5400;
+    border-radius: 8px 8px 0;
+    padding: 6px 6px 5px 7px;
+    
+}
+
+.prix{
+    font-size: 25px;
+    padding-left:10px;
+    margin:0;
+}
+
+.titre-bouton-tendances{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin : 0 25px 0 15px;
+    padding-top:10px;
+}
+
+button{
+    border-radius: 25px;
+    font-family:proximanova,arial,sans-serif;
+    background: #3D3D3D;
+    color:white;
+    border:none;
+    height: 40px;
+    width:100px;
+}
+
+.section-3-jeux{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    height: auto;
+}
+
+
+
+.section-1jeu img{
+    width:100%;
+    border-radius: 10px;
+
+}
+
+.section-1jeu img:hover{
+    width:100%;
+    border-radius: 10px;
+    src:url(/assets/img/ghost.gif)
+}
+
+.titre-prix-jeu{
+    display:flex;
+    justify-content: space-between;
+}
+
+.test{
+    background-image : url('/assets/img/spiderman.jpg');
+    width:100%;
+    height:100%;
+}
+
+.test:hover{
+    background-image : url('/assets/img/ghost.gif');
+    width:500px;
+    height:500px;
+}
+
+.bandeau-transition{
+    display:flex;
+    justify-content: space-around;
+    padding-top : 30px;
+    padding-bottom :30px;
+    background-color: black;
+}
+
+.ultra-rapide, .fiable-et-sur, .service-client{
+    display:flex;
+    align-items: center;
+    padding: 0 15px 0 15px;
+}
+
+.logo-fiable-et-sur, .logo-ultra-rapide, .logo-service-client{
+    padding-right:10px;
+}
+
+.texte-fiable-et-sur, .texte-ultra-rapide, .texte-service-client{
+    font-size: 10px;
+}
+
+.texte-fiable-et-sur p, .texte-ultra-rapide p, .texte-service-client p{
+    margin : 0;
+    color:rgb(174, 174, 174);
+}
+
+.titre-fiable-et-sur p, .titre-ultra-rapide p, .titre-service-client p{
+    margin : 0;
+}
+
+.trustpilot-logo{
+    background: url(./../img/trustpilot-logo.svg);
+    width:110px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 26px;
+}
+
+.trustpilot-stars{
+    background: url(./../img/trustpilot-stars.svg);
+    width:110px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 26px;
+}
+
+.trustpilot-logo-stars{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.trustpilot-text p{
+    font-size: 15px;
+}
+
+.trustpilot-text span{
+    text-decoration: underline;
+}
+
+.bande-rose-transi{
+    display:flex;
+    background:url(./../img/background.jpg) no-repeat ;
+    background-size:cover;
+    padding-top:30px;
+}
+
+.texte-etoiles-rose{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left:3vw;
+    padding-right:5vw;
+}
+
+.texte-etoiles-rose p{
+    text-align: center;
+}
+
+.photo-joueur{
+    padding-left : 8vw;
+}
+
+.photo-joueur img{
+    height:100%;
+
+}
+
+.bouton-transi-rose{
+    background-color:#FF5400;
+    border-radius: 10px;
+}
+
+.bouton-transi-rose p{
+    padding: 5px 10px;
+}
+
+.bandeau-avis{
+    display:flex;
+    justify-content: space-around;
+    padding-top:3vh;
+    padding-right:50px;
+    padding-left:30px;
+    justify-content: flex-start;
+    overflow: scroll;
+}
+
+.top-avis{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.étoiles-avis-nom{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 10px 0 10px;
+
+}
+
+.etoiles-avis img{
+    width:100px;
+}
+
+.image-avis img{
+    border-radius: 24px;
+    width:70px;
+}
+
+.un-avis{
+    background-color:#323232;
+    border-radius: 20px;
+    padding:30px;
+    margin-right:5px;
+    margin-left:5px;
+}
+
+.titre-bouton-precommande{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:0 25px 0 15px;
+}
+
+.titre-preco-jeu{
+    color: #3483FF;
+}
+.titre-preco-jeu span{
+    padding: 2px;
+    display: inline-block;
+    border: 1px solid #3483FF;
+    border: 1.5px solid #3483FF;
+    border-radius: 4px;
+    font-size: small;
+}
+
+.zoom:hover {
+    transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    
+    .image-promo-jeu{
+        height: 210px;
+        width: 380px;
+        border-radius: 10px;
+    }
+
+    
+    .image-jeu.spiderman{
+        background: url('../img/spiderman.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.spiderman:hover{
+        background: url('../video/spider-man.gif') no-repeat;
+        background-size: cover;
+    }
+    
+
+    .image-jeu.fifa23{
+        background: url('../img/fifa23.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.fifa23:hover{
+        background: url('../video/fifa.gif') no-repeat;
+        background-size: cover;
+    }
+    
+
+    .image-jeu.call-of-duty{
+        background: url('../img/call-of-duty-modern-warfare-2.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.call-of-duty:hover{
+        background: url('../video/call-of-duty.gif') no-repeat;
+        background-size: cover;
+    }
+    
+
+    .image-jeu.evil-west{
+        background: url('../img/evil-west.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.evil-west:hover{
+        background: url('../video/evil-west.gif') no-repeat;
+        background-size: cover;
+    }
+
+    
+    .image-jeu.bannerlord{
+        background: url('../img/bannerlord.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.bannerlord:hover{
+        background: url('../video/bannerlord.gif') no-repeat;
+        background-size: cover;
+    }
+    
+    
+    .image-jeu.farming-v1{
+        background: url('../img/farming-simulator-2-v1.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.farming-v1:hover{
+        background: url('../video/farming-simulator.gif') no-repeat;
+        background-size: cover;
+    }
+
+
+    .image-jeu.pokemon{
+        background: url('../img/pokemon-violet.jpg') no-repeat;
+        background-size: cover;
+    }
+
+    .image-jeu.pokemon:hover{
+        background: url('../video/pokemon.gif') no-repeat;
+        background-size: cover;
+    }
+    
+
+    .image-jeu.farming-v2{
+        background: url('../img/farming-simulator-2-v2.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.farming-v2:hover{
+        background: url('../video/farming-simulator.gif') no-repeat;
+        background-size: cover;
+    }
+
+
+    .image-jeu.need-for-speed{
+        background: url('../img/need-for-speed.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.need-for-speed:hover{
+        background: url('../video/need-for-speed.gif') no-repeat;
+        background-size: cover;
+    }
+
+
+    .image-jeu.lightfall{
+        background: url('../img/lightfall.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.lightfall:hover{
+        background: url('../video/lightfall.gif') no-repeat;
+        background-size: cover;
+    }
+
+
+    .image-jeu.final{
+        background: url('../img/final.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.final:hover{
+        background: url('../video/final.gif') no-repeat;
+        background-size: cover;
+    }
+
+
+    .image-jeu.one-piece{
+        background: url('../img/one-piece.jpg') no-repeat;
+        background-size: cover;
+    }
+    .image-jeu.one-piece:hover{
+        background: url('../video/one-piece.gif') no-repeat;
+        background-size: cover;
+    }
+
+
+    .image-jeu{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-1jeu{
+        border-radius: 10px;
+        padding:0 10px 0 10px;
+        display:flex;
+        flex-direction:column;
+    }
+    
+
+
+    footer{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    .footer-container{
+        padding: 50px;
+        background-color: #101010;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-self: center;
+        margin-bottom: 0!important;
+        margin-top: auto;
+        color:white;
+    }
+    .links{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #272727;
+    }
+    .logoinstantgaming{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column
+    }
+    .list-condition{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .list-condition li
+    {
+        display: flex;
+        padding: 10px 0;
+        align-items: center;
+    }
+    .KDO{
+        margin-right: 10px;
+    }
+    .media{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .icons{
+        display:flex;
+        margin:-7px; 
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+    .icons svg{
+        padding:5px;
+    }
+    .apps{
+        display: flex;
+        margin-top: 30px;
+    }
+    .apps .appstore
+    {
+        margin:10px;
+    }
+    .apps .googleplay
+    {
+        margin:10px;
+    }
+    .information{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .geolocalisation{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .iconloca{
+        margin-right: 10px;
+    }
+    .pays{
+        margin-right: 10px;
+        padding-right: 10px;
+        border-right: 1px solid #3d3d3d ;
+    }
+    
+    .zoom {
+        transition: transform .2s;
+    }
+    
+    .zoom:hover {
+        transform: scale(1.07);
+    }
+
+
+    
+
+
+
+
+
+    @media screen and (max-width: 450px)
+{.footer-container {
+    padding: 15px;
+}
+}
+@media screen and (max-width:450px)
+{.content{
+    max-width: 1200px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.icons{
+    justify-content: center;
+}
+.copyright{
+    text-align: center;
+}
+}
+@media screen and (max-width: 1000px)
+{.footer-container .content .links {
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.footer-container {
+    padding: 20px;
+}
+
+.footer-container .content .links .logoinstantgaming{
+    align-items:center;
+}
+
+.footer-container .content .links .logoinstantgaming .trustpilot{
+    display: none;
+}
+
+.footer-container .content .links .logoinstantgaming .instant-gaming{
+    align-items:center;
+}
+
+
+.footer-container .content .links .list-condition {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.footer-container .content .links .media {
+    align-items: center;
+}
+
+.footer-container .content .information {
+    flex-direction: column-reverse;
+}
+
+.list-condition{
+    padding: 0px 0;
+}
+}
+
+
+/* bandeau gris en bas */
+.actions-footer{
+    padding: 30px;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top:20px;
+}
+.actions-footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.actions-footer .subcribe{
+    max-width: 1200px;
+    align-self: center;
+    width: 100%;
+    display: flex;
+}
+.button-inscrivez-vous{
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #ff5400;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    box-sizing: border-box;
+    padding: 0 30px;
+    transition: .2s;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    white-space: normal;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.icon-send{
+    padding-top: 20px;
+}
+
+.menu-bas{
+    background: rgba(39, 39, 39, 0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 63px;
+}
+
+.menu-pc, .menu-ps, .menu-xbox, .menu-nintendo{
+    display:flex;
+    padding:8px;
+}
+
+.menu-pc p, .menu-ps p, .menu-xbox p, .menu-nintendo p{
+    padding-right:10px;
+    padding-left:10px;
+}
+
+/* crollbar style */
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 1px;
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(33,33,33); 
+    border-radius: 5px;
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(53,53,53); 
+  }
